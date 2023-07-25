@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Donusumleri</title>
+</head>
+<body>
+    
+
+    <script>
+
+        let age = "33";
+        console.log(age, typeof age);
+
+        age = age + 15;
+        console.log(age, typeof age);
+
+        age = Number(age) + 50;
+        console.log(age, typeof age);
+
+        const yas = prompt("Yasinizi giriniz.")
+        console.log(yas, typeof yas);
+        let yeniYas = Number(yas) + 1;
+        console.log(yeniYas, typeof yeniYas);
+
+        console.log(Number("123asd")); // Nan
+
+        // Bu işlemin sonucu infinite değeridir, hata vermez
+        const result2 = 5/0;
+        console.log(result2, typeof result2);
+
+
+        console.log(result, Boolean(result) );
+        console.log(result2, Boolean(result2) );
+
+        console.log(Boolean(""));
+
+        let x;
+        console.log(x, Boolean(x));
+
+
+        let y = 5 + ""; // String e çevirme yöntemi
+        let z = "15" * 1; // Number a çevirme yöntemi
+
+    </script>
+</body>
+</html>
